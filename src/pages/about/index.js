@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import {
   dataabout,
   meta,
@@ -11,6 +11,10 @@ import {
 } from "../../content_option";
 
 export const About = () => {
+
+  const getResume = () => {
+   window.open('https://encouraging-pear-narwhal.cyclic.app/portfolio/resume', '_blank')
+  } 
 
    return (
     <HelmetProvider>
@@ -102,6 +106,14 @@ export const About = () => {
             })}
           </Col>
         </Row>
+        <section id="resume">
+          <Row className="sec_sp">
+            <Col lang="5"></Col>
+            <Col lang="7">
+              <Button variant="danger" size="lg" style={{marginBottom: "10rem"}} onClick={getResume}>Get Resume</Button>
+            </Col>
+          </Row>
+        </section>
       </Container>
     </HelmetProvider>
   );

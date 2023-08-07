@@ -12,7 +12,7 @@ const introdata = {
         first: "I love coding.",
         second: "I code cool websites.",
         third: "I develop mobile apps.",
-        // fourth: "A freelancer."
+        fourth: "A freelancer."
     },
     description: "A Software Developer is to develop high-quality software solutions that are efficient, reliable, and user-friendly. I strive to solve problems, improve processes, and enhance user experiences through the application of my technical skills and knowledge.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
@@ -41,11 +41,11 @@ const skills = [
     },
     {
         name: "React",
-        value: 65,
+        value: 60,
     },
     {
         name: "Angular",
-        value: 40,
+        value: 55,
     },
     {
         name: "Ionic",
@@ -53,11 +53,11 @@ const skills = [
     },
     {
         name: "Node JS",
-        value: 70,
+        value: 65,
     },
     {
         name: "Express JS",
-        value: 65,
+        value: 70,
     },
 ];
 
@@ -88,66 +88,25 @@ const services = [
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://res.cloudinary.com/hzxyensd5/image/upload/v1691133004/nwbqwxymkv66b1giqapu.png",
+        description: "A voting management website.",
+        link: "https://kwelections.web.app/login",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://res.cloudinary.com/hzxyensd5/image/upload/v1691133086/kng3qemurn6ol8xhryjm.png",
+        description: "A upcoming south africa crpto currency.",
+        link: "https://www.mycowrie.org/home",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://res.cloudinary.com/hzxyensd5/image/upload/v1691133147/apaukdraesvp5fyxrtns.png",
+        description: "A website to hire an athlete to play the game for their academy.",
+        link: "https://www.playwize.io/",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+        img: "https://res.cloudinary.com/hzxyensd5/image/upload/v1691133189/nt5opdzvnamyzkokp6f7.png",
+        description: "A mobile app to control the DSLR camera using pulse device.",
+        link: "https://play.google.com/store/apps/details?id=com.alpinelabs.pulse&hl=en-IN",
+    }
 ];
 
 const contactConfig = {
