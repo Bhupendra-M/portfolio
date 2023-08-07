@@ -106,14 +106,12 @@ export const About = () => {
             })}
           </Col>
         </Row>
-        <section id="resume">
-          <Row className="sec_sp">
-            <Col lang="5"></Col>
-            <Col lang="7">
-              <Button variant="danger" size="lg" style={{marginBottom: "10rem"}} onClick={getResume}>Get Resume</Button>
-            </Col>
-          </Row>
-        </section>
+        <Row className="sec_sp">
+          <Col lang="5"></Col>
+          <Col lang="7">
+            <Button variant="danger" size="lg" style={{marginBottom: "10rem"}} onClick={getResume}>Get Resume</Button>
+          </Col>
+        </Row>
       </Container>
     </HelmetProvider>
   );
